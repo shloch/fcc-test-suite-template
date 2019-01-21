@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+
+html,body{
+	margin:0;
+	padding:0;
+}
+
+header{
+  font-weight: bold;
+  font-size: 25px;
+}
+section.main-section{
+	margin-bottom: 30px;
+}
+
+#main-doc{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+#navbar{
+	min-width: 20%;
+	line-height: 2.5;
+	margin-left: 10px;
+}
+#navbar li{
+	list-style: none;
+}
+#navbar li a{
+	text-decoration: none;
+}
+.header_description{
+	margin-left: 30px;
+}
